@@ -1,21 +1,52 @@
 {
   "name": "bkprofile",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Portfolio Profile Website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+	"test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dagreatcode/bkprofile.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vincent Kendrick",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dagreatcode/bkprofile/issues"
   },
-  "homepage": "https://github.com/dagreatcode/bkprofile#readme"
+  "homepage": "https://github.com/dagreatcode/bkprofile#readme",
+  "dependencies": {
+		"bcrypt": "^5.0.1",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"if-env": "^1.0.4",
+		"inquirer": "^8.2.4",
+		"mongoose": "^6.3.0",
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"chai": "^4.3.4",
+		"concurrently": "^7.1.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-react": "^7.30.0",
+		"mocha": "^9.0.1",
+		"newman": "^5.2.4",
+		"nodemon": "^2.0.15",
+		"nyc": "^15.1.0",
+		"prettier": "^2.3.1",
+		"sinon": "^11.1.1",
+		"sinon-chai": "^3.7.0",
+		"start-server-and-test": "^1.12.6"
+	}
 }

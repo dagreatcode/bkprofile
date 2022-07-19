@@ -1,3 +1,2 @@
 node_modules
-client/build/service-worker.js
-client/build/static/js
+client/build

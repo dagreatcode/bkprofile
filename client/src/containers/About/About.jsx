@@ -1,17 +1,13 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export default function About() {
+  const [useMyState, setMyUseState] = useState();
 
-    const [useMyState, setMyUseState] = useState();
-
-    useEffect(() => {
-    
-    }, []);
+  useEffect(() => {}, []);
 
   return (
     <>
-    <h1>About Me</h1>
+      <h1>About Me</h1>
     </>
   );
 }

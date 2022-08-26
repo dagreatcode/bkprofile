@@ -27,7 +27,7 @@
   "homepage": "https://github.com/dagreatcode/bkprofile#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.1",
     "express": "^4.17.3",
     "if-env": "^1.0.4",
     "inquirer": "^8.2.4",

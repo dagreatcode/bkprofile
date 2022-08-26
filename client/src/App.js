@@ -1,17 +1,37 @@
-import React from 'react';
-import './App.css';
+import React, { useEffect, useState } from "react";
+// import AlertContext from "./utils/ContextAPI/AlertContext";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import "./App.css";
+import axios from "axios";
+import Home from "./containers/Home/Home";
+import About from "./containers/About/About";
+import Profile from "./containers/Profile/Profile";
+import Contact from "./containers/Contact/Contact";
+// import NavBar from "./components/NavBar/NavBar";
+import NotFound from "./containers/NotFound/NotFound";
+// import AuthContext from "./utils/ContextAPI/AuthContext";
+// import Alert from "./components/Alert";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello Barbara</h1>
-        <section>
-          <h1>Step One</h1>
-          <p>What should we do next?</p>
-        </section>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Router>
+          <Routes>
+            <Route exact path="/About" element={<About />} />
+            <Route exact path="/Profile" element={<Profile />} />
+            <Route exact path="/Contact" element={<Contact />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Router>
+      </div>
+    </>
   );
 }
 

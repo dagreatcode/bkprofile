@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
 import img from "../logo.png";
+
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="text-color">
         <br />
         <br />
         <br />

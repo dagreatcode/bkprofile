@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <>
-      <h1>About Me</h1>
+      <h1 className="text-color">About Me</h1>
     </>
   );
 }

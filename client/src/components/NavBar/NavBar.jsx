@@ -26,11 +26,6 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink id="gonav" to="/Contact" className="nav-link">
-                  Contact
-                </NavLink>
-              </li>
-              <li className="nav-item">
                 <NavLink id="gonav" to="/About" className="nav-link">
                   About
                 </NavLink>
@@ -38,6 +33,11 @@ export default function NavBar() {
               <li className="nav-item">
                 <NavLink id="gonav" to="/Profile" className="nav-link">
                   Profile
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink id="gonav" to="/Contact" className="nav-link">
+                  Contact
                 </NavLink>
               </li>
             </ul>

@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <>
+      <h1 className="text-color">Contact</h1>
+    </>
+  );
 }

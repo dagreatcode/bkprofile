@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-    <h1 style={{color:"FAEA48"}}>Contact</h1>
+    <h1 style={{color:"#FAEA48"}}>Contact</h1>
       <div className="container">
         <div className="row">
           <div className="col-12-sm">

@@ -18,18 +18,20 @@ export default function Profile() {
       <h1 className="text-color">Profile</h1>
       {/* {projects.map((prod) => console.log(prod.title))} */}
       {/* <h1>{projects[0].title}</h1> */}
-      <div className="container" >
+      <div className="container">
         <div className="row">
           {projects.map((prod) => (
             <div
               key={prod._id}
               className="card"
-              
-              style={{margin: "auto;",                 maxWidth: "700px;",border: "2px solid white",
+              style={{
+                margin: "auto;",
+                maxWidth: "700px;",
+                border: "2px solid white",
                 // border:"10px solid gray;",
                 height: "90vh;",
                 width: "18rem",
-                color:"#FAEA48",
+                color: "#FAEA48",
                 // alignItems: "center;",
                 // display: "flex;",
                 // flexDirection: "row;",
@@ -38,7 +40,7 @@ export default function Profile() {
                 display: "block;",
                 marginLeft: "auto;",
                 marginRight: "auto;",
-                backgroundColor:"#3330E4"
+                backgroundColor: "#3330E4",
                 // width: "50%;",
               }}
             >
@@ -46,7 +48,11 @@ export default function Profile() {
               <div className="card-body">
                 <h5 className="card-title">{prod.title}</h5>
                 <p className="card-text">{prod.description}</p>
-                <Link to="/" className="btn" style={{color:"#FAEA48",backgroundColor:"#F637EC"}}>
+                <Link
+                  to="/"
+                  className="btn"
+                  style={{ color: "#FAEA48", backgroundColor: "#F637EC" }}
+                >
                   Check out Product
                 </Link>
               </div>

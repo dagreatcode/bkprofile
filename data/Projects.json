@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "1",
+    "title": "Jean Jacket",
+    "description": "Half dark blue, half light blue.",
+    "bin_location": "01",
+    "img": "./img/Jean-Jacket"
+  },
+  {
+    "_id": "2",
+    "title": "Vegas Leggins",
+    "description": "Made to fit sexy.",
+    "bin_location": "02",
+    "img": "./img/Vegas-Jeans"
+  },
+  {
+    "_id": "3",
+    "title": "Belly Jacket Shirt",
+    "description": "Cut short for the summer and could be worn in the winter time.",
+    "bin_location": "03",
+    "img": "./img/Belly-Jacket-Shirt"
+  }
+]

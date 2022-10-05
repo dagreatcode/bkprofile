@@ -1,6 +1,6 @@
 // import React, { useState, useEffect } from "react";
 import profileImg from "../landing.png";
-import "./About.css"
+import "./About.css";
 
 export default function About() {
   // const [useMyState, setMyUseState] = useState();
@@ -10,12 +10,10 @@ export default function About() {
     <>
       <div className="container">
         <div className="row">
-        <h1 style={{color:"#FAEA48"}}>About me</h1>
+          <h1 style={{ color: "#FAEA48" }}>About me</h1>
         </div>
         <div className="row">
-          <div className="col-sm-4">
-
-          </div>
+          <div className="col-sm-4"></div>
           <div className="col-sm-4">
             <div className="cardStyle">
               <div className="card text-color">
@@ -30,7 +28,11 @@ export default function About() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="/" className="btn" style={{color:"#3330E4", backgroundColor:"#F637EC"}}>
+                  <a
+                    href="/"
+                    className="btn"
+                    style={{ color: "#3330E4", backgroundColor: "#F637EC" }}
+                  >
                     Go somewhere
                   </a>
                 </div>
@@ -39,6 +41,10 @@ export default function About() {
           </div>
           <div className="col-sm-4">
             <div className="new-card">
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
+const projects = require("./data/Projects.json");
 
 const PORT = process.env.PORT || 3001;
 
@@ -47,6 +48,10 @@ app.get("/apiFun", (req, res) => {
   var adminUser = req.params.apiFun;
   console.log(adminUser);
   res.end();
+});
+
+app.get("/api/projects", (req, res) => {
+  res.json(projects);
 });
 
 app.get("*", (req, res) => {

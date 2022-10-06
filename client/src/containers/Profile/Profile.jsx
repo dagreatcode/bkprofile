@@ -24,29 +24,9 @@ export default function Profile() {
           {projects.map((prod) => (
             <div
               key={prod._id}
-              className="card"
+              className="card cardProfile"
               style={{
-                // margin: "auto;",
-                // maxWidth: "700px;",
-                padding: "5px",
-                border: "4px solid #FAEA48",
-                // border:"10px solid gray;",
-                height: "90vh;",
-                width: "18rem",
-                color: "#FAEA48",
-                // alignItems: "space-around;",
-                display: "flex;",
-                // flexFlow: "row wrap",
-                // alignContent: "space-around",
-                justifyContent:"center",
-                // flexDirection: "row;",
-                // textAlign: "center;",
-                // margin: "auto;",
-                // display: "block;",
-                // marginLeft: "auto;",
-                // marginRight: "auto;",
-                backgroundColor: "#3330E4",
-                // width: "50%;",
+
               }}
             >
               <img

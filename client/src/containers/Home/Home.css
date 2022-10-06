@@ -72,10 +72,10 @@ div {
 .cardProfile {
   padding: 10px;
   border: 4px solid #faea48;
-  height: 90vh;
+  /* height: 90vh; */
   width: 18rem;
   color: #faea48;
-  margin: 5px;
+  margin: 10px;
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */

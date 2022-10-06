@@ -22,13 +22,7 @@ export default function Profile() {
       <div className="container">
         <div className="row" style={{}}>
           {projects.map((prod) => (
-            <div
-              key={prod._id}
-              className="card cardProfile"
-              style={{
-
-              }}
-            >
+            <div key={prod._id} className="card cardProfile" style={{}}>
               <img
                 src="https://via.placeholder.com/150"
                 className="card-img-top"
@@ -49,6 +43,13 @@ export default function Profile() {
           ))}
         </div>
       </div>
+      <h1 className="text-color">Profile</h1>
+      <p className="text-color">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illum
+        excepturi commodi at modi, eum, quidem, doloribus ea rem nisi vero!
+        Accusantium vel fuga maxime omnis praesentium perspiciatis temporibus
+        saepe.
+      </p>
     </>
   );
 }

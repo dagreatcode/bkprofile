@@ -30,12 +30,13 @@ div {
 }
 
 .footer {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   /* padding: 1rem; */
   /* background-color: rgb(235, 195, 64); */
-  position: fixed;
+  padding-top: 3em;
+  position: relative;
   bottom: 0;
-  left: 0;
+  /* left: 0; */
   width: 100%;
 
   /* margin-top: auto; */
@@ -53,7 +54,7 @@ div {
   height: 467px;
   background-color: #f637ec;
   border: 10px solid #3330e4;
-  position: absolute;
+  /* position: absolute; */
   /* right: 0px; */
   width: 18rem;
   /* background-color: #282c34; */
@@ -80,4 +81,14 @@ div {
   /* align-items: center; */
   /* justify-content: center; */
   background-color: #3330e4;
+}
+
+.page-container{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  flex:1;
 }

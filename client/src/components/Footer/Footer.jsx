@@ -9,7 +9,7 @@ export default function Footer() {
         <nav className="navbar mynav ">
           <div className="container ">
             <span className="navbar-brand mb-0 text-color h1">
-              © 2022 Barbara Kendrick - Powered By: DaGreat Code LLC
+              © 2022 Barbara Kendrick - <a href="www.dagreatcode.com" target="_blank" rel="noopener noreferrer">Powered By</a>
             </span>
           </div>
         </nav>

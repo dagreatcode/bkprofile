@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import img from "./placeImg.png"
+// import img from "./placeImg.png"
 import { Link } from "react-router-dom";
 
 export default function Profile() {
@@ -36,8 +36,8 @@ export default function Profile() {
                 color: "#FAEA48",
                 // alignItems: "space-around;",
                 display: "flex;",
-                flexFlow:"row wrap",
-                alignContent:"space-around",
+                flexFlow: "row wrap",
+                alignContent: "space-around",
                 // justifyContent:"center",
                 // flexDirection: "row;",
                 // textAlign: "center;",
@@ -49,7 +49,11 @@ export default function Profile() {
                 // width: "50%;",
               }}
             >
-              <img src={img} className="card-img-top" alt="..." />
+              <img
+                src="https://via.placeholder.com/150"
+                className="card-img-top"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title">{prod.title}</h5>
                 <p className="card-text">{prod.description}</p>

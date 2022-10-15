@@ -22,17 +22,21 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router>
-          <NavBar />
-          <Routes>
-            <Route exact path="/About" element={<About />} />
-            <Route exact path="/Profile" element={<Profile />} />
-            <Route exact path="/Contact" element={<Contact />} />
-            <Route exact path="/" element={<Home />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Footer />
-        </Router>
+        <div className="page-container">
+          <div className="content-wrap">
+            <Router>
+              <NavBar />
+              <Routes>
+                <Route exact path="/About" element={<About />} />
+                <Route exact path="/Profile" element={<Profile />} />
+                <Route exact path="/Contact" element={<Contact />} />
+                <Route exact path="/" element={<Home />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+              <Footer />
+            </Router>
+          </div>
+        </div>
       </div>
     </>
   );

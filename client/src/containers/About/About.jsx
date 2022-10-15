@@ -5,7 +5,7 @@ import "./About.css";
 export default function About() {
   // const [useMyState, setMyUseState] = useState();
   // useEffect(() => {}, []);
-
+  window.scrollTo(0, 0);
   return (
     <>
       <div className="container">

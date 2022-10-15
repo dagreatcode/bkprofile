@@ -22,33 +22,7 @@ export default function Profile() {
       <div className="container">
         <div className="row" style={{}}>
           {projects.map((prod) => (
-            <div
-              key={prod._id}
-              className="card"
-              style={{
-                // margin: "auto;",
-                // maxWidth: "700px;",
-                padding: "5px",
-                border: "4px solid #FAEA48",
-                // border:"10px solid gray;",
-                height: "90vh;",
-                width: "18rem",
-                color: "#FAEA48",
-                // alignItems: "space-around;",
-                display: "flex;",
-                flexFlow: "row wrap",
-                alignContent: "space-around",
-                // justifyContent:"center",
-                // flexDirection: "row;",
-                // textAlign: "center;",
-                // margin: "auto;",
-                // display: "block;",
-                // marginLeft: "auto;",
-                // marginRight: "auto;",
-                backgroundColor: "#3330E4",
-                // width: "50%;",
-              }}
-            >
+            <div key={prod._id} className="card cardProfile" style={{}}>
               <img
                 src="https://via.placeholder.com/150"
                 className="card-img-top"
@@ -69,6 +43,13 @@ export default function Profile() {
           ))}
         </div>
       </div>
+      <h1 className="text-color">Profile</h1>
+      <p className="text-color">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illum
+        excepturi commodi at modi, eum, quidem, doloribus ea rem nisi vero!
+        Accusantium vel fuga maxime omnis praesentium perspiciatis temporibus
+        saepe.
+      </p>
     </>
   );
 }

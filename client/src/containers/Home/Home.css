@@ -54,8 +54,8 @@ div {
   /* height:[footer-height]; */
 
   max-width: var(--maxWidth);
-  margin: 0 auto;
-  padding: 0 var(--gap);
+  /* margin: 0 auto;
+  padding: 0 var(--gap); */
 
   /* margin-top: auto;
   padding-top: 10px; */

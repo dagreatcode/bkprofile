@@ -5,8 +5,10 @@ import img from "../landing.png";
 export default function Home() {
   return (
     <>
-      <div className="text-color"         
-        style={{
+      <div
+        className="text-color"
+        style={
+          {
             // height: "200px",
             // margin: "0",
             // position: "absolute",
@@ -24,12 +26,18 @@ export default function Home() {
             // height: 100px;
             // width: 100%;
             // overflow: hidden;
-          }}>
+          }
+        }
+      >
         <br />
         <br />
         <br />
         <br />
-        <img className="img" src={img} alt="Stay safe smiley face" />{" "}
+        <img className="img" src={img} alt="Stay safe smiley face" /> <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </>
   );

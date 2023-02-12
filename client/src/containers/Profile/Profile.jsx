@@ -50,6 +50,8 @@ export default function Profile() {
         Accusantium vel fuga maxime omnis praesentium perspiciatis temporibus
         saepe.
       </p>
+      <br/>
+      <br/>
     </>
   );
 }

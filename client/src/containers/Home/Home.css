@@ -5,6 +5,11 @@ body {
   /* min-height: 100vh;
   display: flex;
   flex-direction: column; */
+  min-height:100%; 
+  position:relative; 
+  /* padding-bottom:[footer-height]; */
+    /* padding: 1rem; */
+
 }
 
 .img {
@@ -41,9 +46,17 @@ div {
   bottom: 0;
   /* left: 0; */
   /* width: 100%; */
+  /* position: absolute; */
+  position: absolute; 
+  left: 0 ; 
+  right: 0; 
+  bottom: 0; 
+  /* height:[footer-height]; */
 
-  margin-top: auto;
-  padding-top: 10px;
+
+
+  /* margin-top: auto;
+  padding-top: 10px; */
 }
 /* .new-card{
   width: 300;

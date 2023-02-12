@@ -5,7 +5,26 @@ import img from "../landing.png";
 export default function Home() {
   return (
     <>
-      <div className="text-color">
+      <div className="text-color"         
+        style={{
+            // height: "200px",
+            // margin: "0",
+            // position: "absolute",
+            // //   position: "fixed",
+            // left: "0",
+            // verticalAlign: "baseline",
+            // //   bottom: "0%",
+            // width: "100%",
+            // backgroundColor: "#001D6E",
+            // //   color: "white",
+            // textAlign: "center",
+            // position: absolute;
+            // left: 0;
+            // bottom: 0;
+            // height: 100px;
+            // width: 100%;
+            // overflow: hidden;
+          }}>
         <br />
         <br />
         <br />

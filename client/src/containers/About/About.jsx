@@ -33,7 +33,14 @@ export default function About() {
                     className="btn"
                     style={{ color: "#3330E4", backgroundColor: "#F637EC" }}
                   >
-                    Go somewhere
+                    Portfolio
+                  </a>
+                  <a
+                    href="/"
+                    className="btn"
+                    style={{ color: "#3330E4", backgroundColor: "#F637EC" }}
+                  >
+                    Appointments
                   </a>
                 </div>
               </div>
@@ -41,13 +48,17 @@ export default function About() {
           </div>
           <div className="col-sm-4">
             <div className="new-card">
-              <br />
-              <br />
-              <br />
-              <br />
+       
             </div>
           </div>
+                 <br />
+              <br />
+              <br />
+              <br />
         </div>
+      </div>
+      <div>
+        
       </div>
     </>
   );

@@ -36,13 +36,13 @@ export default function Contact() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
-                <div
+                {/* <div
                   style={{ color: "#FAEA48", backgroundColor: "#3330E4" }}
                   id="emailHelp"
                   className="form-text"
                 >
                   We'll never share your email with anyone else.
-                </div>
+                </div> */}
               </div>
               <label
                 style={{ color: "#FAEA48", backgroundColor: "#3330E4" }}
@@ -52,33 +52,30 @@ export default function Contact() {
                 Message
               </label>
               <div className="input-group">
-                <span className="input-group-text">Message Here</span>
                 <textarea
                   className="form-control"
                   aria-label="With textarea"
                 ></textarea>
               </div>
               <div className="mb-3 form-check">
-                <input
+                {/* <input
                   type="checkbox"
                   className="form-check-input"
                   id="exampleCheck1"
-                />
-                <label
-                  style={{ color: "#FAEA48", backgroundColor: "#3330E4" }}
-                  className="form-check-label"
-                  htmlFor="exampleCheck1"
-                >
-                  Check me out
-                </label>
+                /> */}
+
+            
               </div>
               <button
-                type="submit"
-                style={{ color: "#FAEA48", backgroundColor: "#F637EC" }}
-                className="btn btn-primary"
-              >
-                Submit
-              </button>
+                  type="submit"
+                  style={{ color: "#FAEA48", backgroundColor: "#F637EC", boxShadow: "50 4px 8px 0 rgba(18, 30, 166, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}
+                  className="btn btn-primary"
+                >
+                  Submit
+                </button>
+              <br />
+              <br />
+              <br />
             </form>
           </div>
         </div>

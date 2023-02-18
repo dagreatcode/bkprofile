@@ -52,7 +52,7 @@ div {
   right: 0; 
   bottom: 0; 
   /* height:[footer-height]; */
-
+  /* display: block; */
   max-width: var(--maxWidth);
   /* margin: 0 auto;
   padding: 0 var(--gap); */
@@ -73,6 +73,9 @@ div {
   height: 467px;
   background-color: #f637ec;
   border: 10px solid #3330e4;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
   /* position: absolute; */
   /* right: 0px; */
   width: 18rem;

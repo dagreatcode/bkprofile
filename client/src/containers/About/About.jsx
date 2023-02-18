@@ -26,7 +26,9 @@ export default function About() {
                   <h5 className="card-title">Here is a little about me...</h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    up the bulk of the card's content. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
                   </p>
                   <a
                     href="/"
@@ -47,19 +49,15 @@ export default function About() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="new-card">
-       
-            </div>
+            <div className="new-card"></div>
           </div>
-                 <br />
-              <br />
-              <br />
-              <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </>
   );
 }

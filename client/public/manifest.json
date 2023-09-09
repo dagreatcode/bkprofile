@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Barbara Kendrick",
+  "name": "Barbara Kendrick Profile",
   "icons": [
     {
       "src": "favicon.ico",
@@ -30,6 +30,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#3330e4;",
+  "background_color": "#3330e4;"
 }

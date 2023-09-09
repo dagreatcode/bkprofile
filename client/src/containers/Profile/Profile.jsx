@@ -42,14 +42,14 @@ export default function Profile() {
             </div>
           ))}
         </div>
-      </div>
-      <h1 className="text-color">Profile</h1>
-      <p className="text-color">
+        <h1 className="text-color ">Profile</h1>
+      <p  style={{ color: "#FAEA48", backgroundColor: "#3330E4" }} className="text-color">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illum
         excepturi commodi at modi, eum, quidem, doloribus ea rem nisi vero!
         Accusantium vel fuga maxime omnis praesentium perspiciatis temporibus
         saepe.
       </p>
+      </div>
       <br/>
       <br/>
     </>

@@ -19,5 +19,19 @@
     "description": "Cut short for the summer and could be worn in the winter time.",
     "bin_location": "03",
     "img": "./img/Belly-Jacket-Shirt"
+  },
+  {
+    "_id": "3",
+    "title": "Corset",
+    "description": "Retro Style.",
+    "bin_location": "04",
+    "img": "./img/Belly-Jacket-Shirt"
+  },
+  {
+    "_id": "3",
+    "title": "Kimono style shirt",
+    "description": "Made to fit sexy.",
+    "bin_location": "05",
+    "img": "./img/Belly-Jacket-Shirt"
   }
 ]
